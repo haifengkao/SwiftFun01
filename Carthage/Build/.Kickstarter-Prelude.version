@@ -1,0 +1,33 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "Prelude",
+      "hash" : "02f0a10af5c91ecfd851dd3a5ef352361f990ae7ea9a771335c19c4a625c1923",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    },
+    {
+      "name" : "Prelude_UIKit",
+      "hash" : "8441a6cebc8bc95058a63b36264f526ad7cf4f35544da958b184998013288aee",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ],
+  "commitish" : "c96c90b026d45839724e827f881dcba3ec812725",
+  "iOS" : [
+    {
+      "name" : "Prelude",
+      "hash" : "477d23a1e656e710fcb31dfb76a5c9a35d5f16bd01d749dd40beb79a5fac132b",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    },
+    {
+      "name" : "Prelude_UIKit",
+      "hash" : "fdfa90883b67b96e7830950de56a1f7eddc3dbc56d1b9fa634f2b350e2f6dd9f",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+    }
+  ]
+}

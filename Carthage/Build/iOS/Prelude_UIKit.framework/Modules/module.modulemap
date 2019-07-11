@@ -1,0 +1,4 @@
+framework module Prelude_UIKit {
+  header "Prelude_UIKit-Swift.h"
+  requires objc
+}
