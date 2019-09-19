@@ -10,6 +10,10 @@ public func |> <A, B> (x: A, f: (A) -> B) -> B {
   return f(x)
 }
 
+public func <| <A, B> (f: (A) -> B, x: A) -> B {
+  return f(x)
+}
+
 /**
  Pipe a collection of values into a function, i.e. a flipped-infix operator for `map`.
 

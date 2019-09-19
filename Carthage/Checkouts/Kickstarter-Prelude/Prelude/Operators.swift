@@ -4,6 +4,12 @@ precedencegroup LeftApplyPrecedence {
   lowerThan: TernaryPrecedence
 }
 
+precedencegroup RightApplyPrecedence {
+  associativity: right
+  higherThan: LeftApplyPrecedence
+  lowerThan: TernaryPrecedence
+}
+
 precedencegroup FunctionCompositionPrecedence {
   associativity: right
   higherThan: LeftApplyPrecedence
@@ -21,6 +27,7 @@ precedencegroup LensSetPrecedence {
 
 /// Pipe forward function application.
 infix operator |> : LeftApplyPrecedence
+infix operator <| : RightApplyPrecedence
 
 /// Infix, flipped version of fmap (for arrays), i.e. `xs ||> f := f <^> xs`
 infix operator ||> : LeftApplyPrecedence
